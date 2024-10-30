@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center p-4 bg-gray-800 text-white">
+    <nav className="flex justify-around items-center p-4 bg-gray-800 text-white">
       <div className="flex items-center">
         <Link href="/" className='text-2xl text-bold'>
         BrandName
